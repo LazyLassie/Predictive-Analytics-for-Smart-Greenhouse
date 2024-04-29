@@ -1,7 +1,10 @@
 #include <Adafruit_Sensor.h>
 #include <DHT.h>
 #include <DHT_U.h>
+#include <Firebase.h> 
 
+#define FIREBASE_HOST "https://console.firebase.google.com/project/smart-greenhouse-f56d5/database/smart-greenhouse-f56d5-default-rtdb/data/~2F"
+#define FIREBASE_AUTH "AIzaSyCskwg8-Fm8UwQ2-kW23huGs7YLKbSRQNs"
 #define DHTPIN 2     // Digital pin connected to the DHT sensor 
 #define DHTTYPE    DHT22    
 
